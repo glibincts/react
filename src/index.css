@@ -17,25 +17,19 @@ code {
     monospace;
 }
 
-.mainHeader {
-  min-height: 4rem;
+.nav-brand {
+  font-size: x-large;
+  font-weight: bolder;
+  color: white;
 }
-.header-container {
-  min-height: inherit;
-}
-.row {
-  min-height: inherit;
-  ali
-}
-
-.logo-text {
-  font-size: 1.5rem;
+.nav-brand:hover {
+  color: white;
+  text-decoration: none;
 }
 
-.logo-content {
-  padding-left: 5px;
+.nav-item a {
+  color: white !important;
 }
-
-.navBar-content {
-  float: right;
+.navbar-toggler {
+  border-color: white !important;
 }
