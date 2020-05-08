@@ -4,7 +4,7 @@ class Header extends Component {
   state = {};
   render() {
     return (
-      <div className="header bg-primary">
+      <div className="header">
         <nav className="navbar navbar-expand-lg navbar-light">
           <a className="nav-brand" href="#">
             ReactApp

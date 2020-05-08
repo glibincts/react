@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0%;
 }
+html  {
+  scroll-behavior: smooth;
+}
 
 body {
   margin: 0;
@@ -10,6 +13,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-image: url(./Images/back.jpg); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  background-color: #001f3f;
 }
 
 code {
@@ -32,4 +40,22 @@ code {
 }
 .navbar-toggler {
   border-color: white !important;
+}
+
+#container1{
+  background-image: url(./Images/holy.jpg);
+  /* background-position: 5px 0px; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+  border-radius: 0.5rem;
+
+}
+
+.navbar{
+  padding: 1.25rem 4rem !important;
+}
+
+#row1{
+  height: inherit;
 }
