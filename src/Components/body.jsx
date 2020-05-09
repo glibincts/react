@@ -9,8 +9,8 @@ class Body extends Component {
         <div className="row" id='row1'>
           <div className="col-sm-6 text-center ml-auto" >
             <div className="banner my-auto align-self-center">  
-              <h4>Welcome to MyApp</h4> 
-              <p>Hey guys, thanks for watching my new React WebApplication. This is my first project in react webapp</p>
+              <h2 className='text-primary'>Welcome to MyApp</h2> 
+              <h4 className='mt-2'>Hey guys, thanks for watching my new React WebApplication. This is my first project in react webapp</h4>
             </div>
           </div>
         </div>

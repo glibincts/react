@@ -59,3 +59,29 @@ code {
 #row1{
   height: inherit;
 }
+.banner{
+  padding-top: 10rem;
+}
+
+#footer{
+  color: white;
+  min-height: 14rem;
+}
+#footer1{
+  min-height: 12rem;
+}
+
+#copyR{
+  font-size: 14px;
+}
+
+.nav-header{
+  padding-top: 15px; 
+  color: grey;
+}
+
+.nav-content .nav{
+  padding-top: 15px;
+}
+
+
